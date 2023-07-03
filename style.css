@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    line-height: 20px;
+}
+
+.content-box {
+    width: 80%;
+    margin: 100px auto;
+    row-gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    display: flex;
+}
+
+.bx1-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 55px;
+    color: hsl(300, 43%, 22%);
+    line-height: 50px;
+}
+
+.bx2-container {
+    width: 60%;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.bx2-container>div {
+    font-weight: 700;
+    padding: 15px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+
+.bx2-item1 {
+    width: 80%;
+    margin-right: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.bx2-item2 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.bx2-item3 {
+    width: 80%;
+    margin-left: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+
+.its-container {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 20px;
+    padding: 14px 20px;
+    margin: 20px auto;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.its-items3 {
+    grid-column-end: span 2;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+
+
+.box2-item1 {
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    align-self: start;
+}
+
+.box2-item2 {
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    align-self: center;
+}
+
+.box2-item3 {
+    padding: 10px;
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    border-radius: 10px;
+    align-self: baseline;
+    margin-top: 50px;
+}
+
+
+
+
+.first {
+    font-weight: 500;
+}
+
+.second {
+    font-weight: 500;
+    color: hsl(333, 80%, 67%);
+}
